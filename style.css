@@ -283,6 +283,66 @@ body{
   height:18px;
 }
 
+
+/* =========================
+   ABOUT PAGE
+========================= */
+
+.back-link{
+  display:inline-block;
+  margin-bottom:24px;
+  color:#6b7280;
+  font-size:14px;
+  text-decoration:none;
+}
+
+.back-link:hover{
+  color:#111827;
+}
+
+.about-card{
+  max-width:720px;
+  padding:40px;
+}
+
+.about-card h1{
+  font-size:42px;
+  line-height:1.1;
+  margin-bottom:18px;
+  color:#111827;
+}
+
+.about-card h2{
+  font-size:22px;
+  line-height:1.25;
+  margin-top:34px;
+  margin-bottom:12px;
+  color:#111827;
+}
+
+.about-card p{
+  color:#374151;
+  font-size:16px;
+  line-height:1.8;
+  margin-bottom:18px;
+}
+
+.about-card .about-intro{
+  color:#111827;
+  font-size:18px;
+  line-height:1.7;
+  margin-bottom:26px;
+}
+
+.about-text{
+  max-width:64ch;
+}
+
+.about-card .social{
+  justify-content:flex-start;
+  margin-top:18px;
+}
+
 /* =========================
    FOOTER
 ========================= */
@@ -320,6 +380,23 @@ gap:10px;
 .social a{
 width:48px;
 height:48px;
+}
+
+.about-card{
+padding:24px;
+}
+
+.about-card h1{
+font-size:34px;
+}
+
+.about-card p{
+font-size:15px;
+line-height:1.75;
+}
+
+.about-card .about-intro{
+font-size:16px;
 }
 
 }
