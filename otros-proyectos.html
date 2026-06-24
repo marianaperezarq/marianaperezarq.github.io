@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Otros proyectos | Mariana Pérez Apodaca</title>
+<meta name="description" content="Otros proyectos de Mariana Pérez Apodaca.">
+<meta name="theme-color" content="#eef4ff">
+<link rel="canonical" href="https://marianaperezarq.github.io/otros-proyectos.html">
+<link rel="icon" href="/assets/img/favicon.ico">
+<link rel="preload" href="/assets/font/PlusJakartaSans-Regular.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="bg"></div>
+<div class="container">
+<div class="card about-card reveal">
+<a href="/" class="back-link">← Volver al inicio</a>
+<div class="empty-state">Otros proyectos</div>
+</div>
+<div class="footer">© 2026</div>
+</div>
+<script>
+const reveal=document.querySelectorAll('.reveal');
+const observer=new IntersectionObserver(entries=>{entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add('show');}});},{threshold:.1});
+reveal.forEach(el=>observer.observe(el));
+</script>
+</body>
+</html>
