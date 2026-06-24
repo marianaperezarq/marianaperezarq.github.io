@@ -391,7 +391,10 @@ body{
 body{
 padding:24px 14px;
 }
-
+container{
+max-width:340px;
+margin:auto;
+}
 .card{
 padding:20px;
 border-radius:28px;
